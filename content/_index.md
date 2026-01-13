@@ -40,6 +40,7 @@ sections:
           size: cover
           position: center
           parallax: false
+          
   - block: collection
     content:
       title: Pinned Post
