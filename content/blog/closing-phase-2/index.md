@@ -24,7 +24,7 @@ In Phase 1, I laid my foundation with core skills. In Phase 2, I applied them to
 For this Phase, I developed an **end-to-end pipeline project** hosted on GitHub: 
 👉 [**E-Commerce Data Warehouse Pipeline**](https://github.com/faqihalamin95/ecommerce-data-pipeline)
 
-This pipeline ingests raw e-commerce datasets, performs layered transformations (raw → staging → marts), and applies basic quality checks.
+This pipeline ingests raw e-commerce datasets, performs layered transformations (raw → staging → foundation → marts), and applies basic quality checks.
 
 ### Core components of the project
 
