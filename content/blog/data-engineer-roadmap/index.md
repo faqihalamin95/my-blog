@@ -24,7 +24,7 @@ featured: true
 
 ---
 
-### Overview
+## Overview
 
 I designed this roadmap to align with eight semesters of my Data Science degree, combining theory from coursework and technical depth from self-learning. Each semester focuses on a specific layer of data engineering, from local experimentation to production-grade cloud systems.
 
@@ -34,37 +34,48 @@ As a Data Science student, my goal is to *build solid* ***foundations first***, 
 
 ---
 
-### Roadmap Table
+## Roadmap Table
 
-**Foundation (Phase 1-2)**
+### Foundation (Phase 1-2) ✅
 
-| Phase | Status | Main Focus | Learning Resources | Key Skill & Topics | Tools / Platform | Project / Portfolio Output |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1\. Foundation Basics (2 months) | ✅ Completed | Python & SQL Fundamentals | Cisco - (Python Essentials 1, Linux Unhatched), Codecademy - Learn SQL, Codedex - Learn Git & Github | Basic statistics, Python basics, SQL fundamentals, intro to Git & Linux | Python, Jupyter Notebook, GitHub, Linux Shell, PostgreSQL/MySQL | **Project 1**: Basic Python scripting + simple SQL database & exploratory analysis |
-| 2\. Local ETL & Modeling (2 months) | ⏳ In Progress | Databases & Local Data Handling | Databricks Academy (Data Modeling Strategies, Intro to Python for DS & DE, SQL Programming & Procedural Logic, Get Started with SQL Analytics & BI, Databricks SQL Performance Best Practices), pandas docs, PostgreSQL tutorial, MySQL docs, IBM: Linux Commands & Shell Scripting | CSV/JSON ingestion, Pandas ETL, Bash automation, ERD design, normalization, basic ETL patterns | PostgreSQL/MySQL, GitHub, Pandas & NumPy, Bash CLI | **Project 2:** Local ETL: ingest → clean → store data in SQL DB → export to CSV (with proper data modeling) |
-
----
-
-**Cloud/Pipeline (Phase 3-5)**
-
-| Phase | Status | Main Focus | Learning Resources | Key Skill & Topics | Tools / Platform | Project / Portfolio Output |
-| --- | --- | --- | --- | --- | --- | --- |
-| 3\. Cloud Foundations (4 months) |  | Cloud basics, Infrastructure setup, Containerization |  | IAM fundamentals, Object storage (S3/GCS), networking basics (VPC/Subnet), advanced Bash, Dockerizing environments, IaC fundamentals | AWS S3, IAM, Boto3, Bash, Docker, Terraform | **Project 3:** Automated data backup to cloud using Python/Bash (deploy via Docker container) |
-| 4\. Serverless & IaC Pipelines (4 months parallel with phase 3) |  | Serverless Infrastructure & Basic Pipelines |  | Event-driven processing, Lambda functions, queue-based workflows, micro ETL orchestration, IaC deployment pipelines | AWS Lambda, SQS, Terraform, GitHub | **Project 4:** Serverless data pipeline deployed via Terraform |
-| 5\. Big Data & Orchestration (5 months) |  | Big Data, Cloud ETL & Basic Streaming |  | Spark DataFrames, distributed processing, Glue ETL workflows, Redshift integration, dbt SQL modeling, Airflow DAG orchestration, data quality frameworks | Apache Spark (PySpark), AWS Glue, Redshift, Airflow/Step Functions, Kafka/Kinesis, dbt | **Project 5:** Cloud ETL — raw → Glue → Redshift/S3 + basic streaming ingestion + data quality checks |
+| Phase | Phase 1 - Foundation Basics (2 months) | Phase 2 - Local ETL & Modeling (2 months) |
+| --- | --- | --- |
+| **Status** | ✅ Completed | ✅ Completed |
+| **Main Focus** | Python & SQL Fundamentals | Databases & Local Data Handling |
+| **Learning Resources** | Cisco - (Python Essentials 1, Linux Unhatched), Codecademy - Learn SQL, Codedex - Learn Git & Github | Databricks Academy, pandas docs, PostgreSQL tutorial, The Data Warehouse Toolkit (3rd Edition) by Ralph Kimball |
+| **Key Skill & Topics** | Basic statistics, Python basics, SQL fundamentals, Intro to Git & Linux | CSV/JSON ingestion, Pandas ETL, Bash automation, Data modeling, Normalization, Basic ETL patterns, Makefile-based orchestration |
+| **Tools / Platform** | Python, Jupyter Notebook, GitHub, Linux Shell, PostgreSQL/MySQL | PostgreSQL/MySQL, GitHub, Pandas & NumPy, Bash CLI |
+| **Project / Portfolio Output** | **Project 1**: [**Movie Data ETL Pipeline**](https://datadonut.netlify.app/projects/movie-data-etl-pipeline/) | **Project 2:** Local ETL: ingest → clean → store data in SQL DB → export to CSV (with proper data modeling) |
 
 ---
 
-**Advanced/Production (Phase 6-7)**
+### Cloud (Phase 3-4) ⏳
 
-| Phase | Status | Main Focus | Learning Resources | Key Skill & Topics | Tools / Platform | Project / Portfolio Output |
-| --- | --- | --- | --- | --- | --- | --- |
-| 6\. DevOps & Production (4 months) |  | CI/CD, Observability & Container Orchestration |  | Infrastructure automation, secret management, GitHub Actions pipelines, test workflows, monitoring & logging, container orchestration (K8s) | Terraform, GitHub Actions, CloudWatch, Docker, Kubernetes | **Project 6:** Production-grade ETL with CI/CD, tests, monitoring, containerized deployment |
-| 7\. Lakehouse & Capstone (8 months) |  | Lakehouse, Advanced Streaming & ML Integration |  | Delta Lake/Hudi, ACID ingestion, Spark optimization, incremental loads, real-time streaming (Flink/Spark Streaming), data governance, feature stores, ML pipeline integration | Databricks, Delta Lake, Flink/Spark Streaming, Great Expectations, MLflow, Terraform, Airflow, Power BI/Metabase | **Capstone:** Full data platform — ingestion → processing → catalog → quality → dashboard + ML pipeline |
+| Phase | Phase 3 - Cloud Infrastructure & Serverless Pipelines (4 months) | Phase 4 - Big Data & Advanced Orchestration (5 months) |
+| --- | --- | --- |
+| **Status** | ⏳ In Progress | 🗓️ Planned |
+| **Main Focus** | Cloud infra, Containerized workloads, Event-driven pipelines | Big data, Cloud ETL & Basic streaming |
+| **Learning Resources** |  |  |
+| **Key Skill & Topics** | IAM (least privilege), S3 (raw/staging zones), VPC & networking basics, Dockerized Python apps, Terraform IaC, Lambda execution model, SQS-based decoupling, Idempotent ETL, CI-ready infra | Spark DataFrames, Distributed processing, Glue ETL workflows, Redshift integration, dbt SQL modeling, Airflow DAG orchestration, Data quality frameworks |
+| **Tools / Platform** | AWS S3, IAM, VPC, Docker, Python, Terraform, AWS Lambda, SQS, GitHub Actions (basic) | Apache Spark (PySpark), AWS Glue, Redshift, Airflow/Step Functions, Kafka/Kinesis, dbt |
+| **Project / Portfolio Output** | **Project 3:** End-to-end cloud data pipeline (Docker + Lambda) deployed fully via Terraform | **Project 4:** Cloud ETL, raw → Glue → Redshift/S3 + basic streaming ingestion + data quality checks |
 
 ---
 
-### How I’ll Use This Roadmap
+### Advanced (Phase 5-6) 🗓️
+
+| Phase | Phase 5 - DevOps & Production (4 months) | Phase 6 - Lakehouse & Capstone (8 months) |
+| --- | --- | --- |
+| **Status** | 🗓️ Planned | 🗓️ Planned |
+| **Main Focus** | CI/CD, Observability & Container orchestration | Lakehouse, Advanced streaming & ML integration |
+| **Learning Resources** |  |  |
+| **Key Skill & Topics** | Infrastructure automation, Secret management, GitHub Actions pipelines, Test workflows, Monitoring & logging, Container orchestration (K8s) | Delta Lake/Hudi, ACID ingestion, Spark optimization, Incremental loads, Real-time streaming (Flink/Spark Streaming), Data governance, Feature stores, ML pipeline integration |
+| **Tools / Platform** | Terraform, GitHub Actions, CloudWatch, Docker, Kubernetes | Databricks, Delta Lake, Flink/Spark Streaming, Great Expectations, MLflow, Terraform, Airflow, Power BI/Metabase |
+| **Project / Portfolio Output** | **Project 5:** Production-grade ETL with CI/CD, tests, monitoring, containerized deployment | **Capstone:** Full data platform — ingestion → processing → catalog → quality → dashboard + ML pipeline |
+
+---
+
+## How I’ll Use This Roadmap
 
 * **As a compass**, to keep me aligned with my long-term goal: becoming a professional Data Engineer.
     
@@ -77,48 +88,46 @@ This roadmap isn’t final, it’s something I’ll refine every semester as I g
 
 ---
 
-### What’s Next
+## What’s Next
 
-Phase 1 is complete.  
-Phase 2 is now underway, focusing on **Local ETL & Data Modeling,** ingesting, cleaning, modeling, and storing data locally in a structured, reproducible way.
+Phase 1 and Phase 2 are **completed**, covering foundational skills and local ETL workflows—from basic Python and SQL to structured data modeling and reproducible pipelines.
 
-At the end of Phase 2, I’ll write a reflection post on what worked, what broke, and what I learned while moving from a simple pipeline to more structured local ETL workflows.
+I am currently **in progress with Phase 3**, focusing on **Cloud Infrastructure & Serverless Pipelines**. This phase marks the transition from local environments to cloud-native systems, emphasizing infrastructure-as-code, containerized workloads, and event-driven data pipelines.
+
+At the end of Phase 3, I plan to document key learnings around cloud infrastructure design, deployment trade-offs, and lessons learned when moving ETL workloads into a serverless environment.
 
 ---
 
-### **Roadmap Update Log**
+## **Roadmap Update Log**
 
-**v2.1 — Phase 2 Learning Resources Update (December 2025)**
+**v2.2 Phase Progress & Vertical Layout Update (February 2026)**
 
-* Change and refine Phase 1 status and documentation.
-    
+* Roadmap structure adjusted: Phase 3 expanded to include production-ready orchestration foundations (total phases reduced to 6).
+* Updated roadmap status: Phase 2 marked as Completed, Phase 3 marked as In Progress.
+* Refactored roadmap tables into a vertical layout for better readability in blog and document formats.
+* Updated *What’s Next* section to reflect current execution focus on cloud infrastructure.
+
+**v2.1 Phase 2 Learning Resources Update (December 2025)**
+
+* Changed and refined Phase 1 status and documentation.
 * Added Phase 2 learning resources.
-    
-* Update on What’s Next section.
-    
+* Updated *What’s Next* section.  
 
-**v2.0 — Major Revision (December 2025)**
+**v2.0 Major Revision (December 2025)**
 
 * Roadmap structure changed: semester-based → phase-based (7 phases).
-    
 * Cloud section updated: combined Cloud Foundations & Serverless Pipelines.
-    
 * Big Data phase revised: PySpark, dbt, and Airflow integrated into a single project.
-    
 * Added Workload Management & Burnout Prevention guidance.
-    
 * Capstone scope clarified: full data platform + ML integration.
     
+**v1.1 Tooling Update (November 2025)**
 
-**v1.2 — Tooling Update (November 2025)**
-
-* Introduced Terraform basics for early IaC exposure.
-    
+* Introduced Terraform basics for early IaC exposure. 
 * Added Docker containerization in Phase 3.
     
 
-**v1.1 — Initial Structure (October 2025)**
+**v1.0 Initial Structure (October 2025)**
 
 * First version of the roadmap published.
-    
 * Added foundation milestones and basic Python/SQL projects.
