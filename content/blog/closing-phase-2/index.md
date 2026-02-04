@@ -12,7 +12,7 @@ cover:
   image: "cover.jpg"
 image:
   filename: featured.jpg
-  caption: 'Image credit: Photo by [**Philippe Surber**](https://unsplash.com/@surber) on [**Unsplash**](https://unsplash.com)'
+  caption: 'Image credit: Photo by [**Michele De Pascalis**](https://unsplash.com/@micheledp93) on [**Unsplash**](https://unsplash.com)'
 ---
 
 **Phase 2 of my data engineering journey was all about putting theory into practice by building an end-to-end data pipeline project while learning why architectural decisions matter (not just how).**
