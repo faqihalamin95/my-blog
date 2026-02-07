@@ -45,7 +45,7 @@ As a Data Science student, my goal is to *build solid* ***foundations first***, 
 | **Learning Resources** | Cisco - (Python Essentials 1, Linux Unhatched), Codecademy - Learn SQL, Codedex - Learn Git & Github | Databricks Academy, pandas docs, PostgreSQL tutorial, The Data Warehouse Toolkit (3rd Edition) by Ralph Kimball |
 | **Key Skill & Topics** | Basic statistics, Python basics, SQL fundamentals, Intro to Git & Linux | CSV/JSON ingestion, Pandas ETL, Bash automation, Data modeling, Normalization, Basic ETL patterns, Makefile-based orchestration |
 | **Tools / Platform** | Python, Jupyter Notebook, GitHub, Linux Shell, PostgreSQL/MySQL | PostgreSQL/MySQL, GitHub, Pandas & NumPy, Bash CLI |
-| **Project / Portfolio Output** | **Project 1**: [**Movie Data ETL Pipeline**](https://datadonut.netlify.app/projects/movie-data-etl-pipeline/) | **Project 2:** Local ETL: ingest → clean → store data in SQL DB → export to CSV (with proper data modeling) |
+| **Project / Portfolio Output** | **Project 1**: [**Movie Data ETL Pipeline**](https://datadonut.netlify.app/projects/movie-data-etl-pipeline/) | **Project 2:** [**E-commerce Data Pipeline**](https://datadonut.netlify.app/projects/ecommerce-data-pipeline/) |
 
 ---
 
