@@ -9,8 +9,6 @@ tags:
   - Data Engineering
   - Career Journey
   - Search Evaluation
-cover:
-  image: "cover.jpg"
 image:
   filename: featured.jpg
   caption: 'Image credit: Photo by [**Marco Aguiluz**](https://unsplash.com/@macaguiluz) on [**Unsplash**](https://unsplash.com)'

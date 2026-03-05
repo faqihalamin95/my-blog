@@ -10,8 +10,6 @@ tags:
   - Learning Journey
   - SQL
   - Python
-cover:
-  image: "cover.jpg"
 image:
   filename: featured.jpg
   caption: "Image credit: Photo by [**Wes Hicks**](https://unsplash.com/@sickhews) on [**Unsplash**](https://unsplash.com)"

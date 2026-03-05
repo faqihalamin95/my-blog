@@ -1,9 +1,10 @@
-module github.com/HugoBlox/hugo-blox-builder/templates/academic-cv
+module github.com/HugoBlox/kit/templates/dev-portfolio-free
 
 go 1.19
 
 require (
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v0.0.0-20251215001347-c72b26de8d15
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.0.0-20251214032829-73b5f7d5758a
-	github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal v0.0.0-20251214235550-d15979197a2a
+	github.com/HugoBlox/kit/modules/blox v0.0.0-20260106201334-85307a809791
+	github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260102210655-66cba27dc652
 )
+
+require github.com/HugoBlox/kit/modules/slides v1.2.5 // indirect

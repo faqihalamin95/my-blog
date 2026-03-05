@@ -19,12 +19,12 @@ hugoblox:
     # Schema.org type for structured data
     type: person                        # person | organization | local_business
     # Short tagline displayed on your site
-    tagline: ""
+    tagline: "Data Engineer | Analytics Engineer | Tech Blogger"
     # Site meta description for search engines and social sharing
-    description: "The highly-customizable Hugo Academic theme powered by Hugo Blox Builder. Easily create your personal academic website."
+    description: "Modern data engineering and analytics portfolio. Built with Hugo Blox."
     # Social accounts (used for meta tags like Twitter Cards)
-    social:
-      twitter: "BuildLore"              # Twitter/X handle for Twitter Cards (without @)
+    # social:
+    #   twitter: "yourusername"              # Twitter/X handle for Twitter Cards (without @)
 
   # ────────────────────────────────────────────────────────────────────────────
   # THEME
@@ -74,7 +74,7 @@ hugoblox:
     # Spacing density: 'compact', 'comfortable', or 'spacious'
     spacing: "comfortable"
     # Avatar shape in author profiles
-    avatar_shape: circle                # circle | square | rounded
+    avatar_shape: rounded                # circle | square | rounded
 
   # ────────────────────────────────────────────────────────────────────────────
   # HEADER
@@ -92,8 +92,7 @@ hugoblox:
     search: true
     theme_toggle: true
     theme_picker: false
-    language_switcher: true
-    logo: true
+    language_switcher: false
     # Call-to-action button
     cta:
       enable: false
@@ -106,7 +105,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   footer:
     # Footer style variant
-    style: minimal                      # minimal | columns | centered
+    style: columns                     # minimal | columns | centered
     language_switcher: true
     # Custom footer text (HTML supported)
     text: ""
@@ -117,7 +116,7 @@ hugoblox:
   # ────────────────────────────────────────────────────────────────────────────
   copyright:
     # Copyright notice - supports {year}, {name}, {license} placeholders
-    notice: "© {year} {name}. All rights reserved."
+    notice: "© {year} {name}. This work is licensed under {license}"
     license:
       type: cc                          # cc | custom
       allow_derivatives: false
@@ -165,7 +164,7 @@ hugoblox:
     # Reading time estimates
     reading_time:
       enable: true
-    # Academic citations
+    # Academic citations (disabled for developer portfolio)
     citations:
       style: apa                        # apa | mla | chicago | ieee
 
@@ -242,13 +241,13 @@ hugoblox:
   # Regional formatting preferences
   # ────────────────────────────────────────────────────────────────────────────
   locale:
-    date_format: "2 January 2006"          # Go time format
-    time_format: "15:04"
-    address_format: en-gb
+    date_format: "Jan 2, 2006"          # Go time format
+    time_format: "3:04 PM"
+    address_format: en-us
 
   # ────────────────────────────────────────────────────────────────────────────
   # SECURITY
-  # Security headers and policies (requires blox-plugin-netlify)
+  # Security headers and policies (requires Netlify integration)
   # ────────────────────────────────────────────────────────────────────────────
   security:
     csp:

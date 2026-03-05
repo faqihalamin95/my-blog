@@ -1,151 +1,124 @@
-# [The Academic CV That Gets You Hired](https://github.com/HugoBlox/theme-academic-cv)
+# [Developer Portfolio](https://hugoblox.com/templates/dev-portfolio/start?utm_source=github&utm_medium=readme)
 
-[![Screenshot](.github/preview.webp)](https://hugoblox.com/templates/academic-cv/start/?utm_source=github&utm_medium=readme)
+[![Screenshot](.github/preview.png)](https://hugoblox.com/templates/dev-portfolio/start?utm_source=github&utm_medium=readme)
 
-<h1 align="center">The Portfolio That Works While You Sleep</h1>
+<h1 align="center">The Dev Portfolio That Gets You Hired</h1>
 
 <p align="center">
-  <strong>Your unfair advantage in academia.</strong><br/>
-  Stop sending PDFs into the void. Build a living portfolio that boosts citations and lands offers.<br/>
-  Trusted by 250,000+ researchers at <strong>MIT, Stanford, and Google</strong>.
+  <strong>Built for uni students, STEM grads, and software engineers.</strong><br/>
+  Showcase real projects, ship a clean blog, and stand out with a modern dark-first design — without a fragile “black box” React app.
 </p>
 
 <p align="center">
-  <a href="https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme"><b>🚀 Launch Free (60s)</b></a>
+  <a href="https://hugoblox.com/templates/dev-portfolio/start?utm_source=github&utm_medium=readme"><b>🚀 Deploy in 60s (Free)</b></a>
   &nbsp;•&nbsp;
-  <a href="https://hugoblox.com/templates/?open=academic-cv&loading=true&utm_source=github&utm_medium=readme">Live Demo</a>
+  <a href="https://hugoblox.com/templates/?open=dev-portfolio&loading=true&utm_source=github&utm_medium=readme">Live Demo</a>
   &nbsp;•&nbsp;
-  <a href="https://marketplace.visualstudio.com/items?itemName=hugoblox.hugoblox-studio"><b>Visual Editor</b></a>
+  <a href="https://docs.hugoblox.com/guides/studio/">Lore Studio (Visual Editor)</a>
 </p>
+
+
+<p align="center">
+  <b>▶︎ Watch 12s Preview</b>
+</p>
+
+https://github.com/user-attachments/assets/a6b676c0-1c10-4734-a55f-68c6f72d1612
 
 <p align="center">
   <a href="https://discord.gg/z8wNYzb"><img src="https://img.shields.io/discord/722225264733716590?label=Join%20Discord&style=social" alt="Discord"></a>
-  <a href="https://github.com/HugoBlox/theme-academic-cv"><img src="https://img.shields.io/github/stars/HugoBlox/theme-academic-cv?label=Star%20Academic%20CV&style=social" alt="GitHub Stars"></a>
+  <a href="https://github.com/HugoBlox/kit"><img src="https://img.shields.io/github/stars/HugoBlox/kit?label=Star%20HugoBlox&style=social" alt="GitHub Stars"></a>
+  <a href="https://x.com/LoreLabs_"><img src="https://img.shields.io/twitter/follow/LoreLabs_?label=Follow&style=social" alt="Follow on X"></a>
 </p>
 
 ---
 
-## Why This Template?
+## Why this template?
 
-Most CVs are static PDFs that get lost in the pile. This is an **intelligent portfolio** that works 24/7 to advance your career.
+Most portfolios look the same — and most “quick” site builders produce slow sites you can’t maintain.
 
-- **🔮 Future-Proof:** Your content lives in simple **Markdown**. No database to break, no lock-in.
-- **🤖 AI-Ready:** Optimized for search engines and LLMs, so your work is found and cited.
-- **⚡ Zero Maintenance:** Auto-import citations from BibTeX and focus on research.
-- **✍️ Edit Visually:** Use **HugoBlox Studio** in VS Code — no coding needed. Full capabilities in Pro.
-
-<p align="center">
-  <a href="https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme">
-    <img src="https://img.shields.io/badge/⚡️%20Get%20Your%20CV%20in%2060s-ff4655?style=for-the-badge" 
-    alt="Deploy this template" width="400">
-  </a>
-</p>
-
-![HugoBlox Studio in Action](https://raw.githubusercontent.com/HugoBlox/hugo-blox-builder/main/.github/media/studio/slide-1.webp)
-*HugoBlox Studio: Drag-and-drop page builder inside VS Code.*
-
-> "My citations went up 3x after switching to this template. The citation auto-sync feature is a lifesaver."
-> — **Dr. Zhang**, AI Research Scientist, Meta
+- **⚡ Fast by default**: Hugo + Tailwind 4 + Hugo Modules → great Lighthouse scores without JS bloat.
+- **🧠 AI-ready content**: Your projects and posts live in clean Markdown/YAML — readable by humans and LLMs.
+- **🎯 Job-hunting optimized**: Projects, tech stack, experience timeline, and a blog layout that looks credible.
+- **🌙 Dark-first (but light-mode supported)**: Looks premium in dark mode, still works perfectly in light mode.
+- **🧩 Block-based**: Reorder/replace sections without rewriting templates.
 
 ---
 
-## Who This Is For
+## Who it’s for
 
-- Students and grads applying to top labs and industry roles
-- Researchers who want a living, citable portfolio
-- Faculty/PIs showcasing publications, talks, and group news
-
----
-
-## Features
-
-| Feature | Benefit |
-| :--- | :--- |
-| **Markdown, Jupyter, RStudio** | Write in the tools you already use. |
-| **Auto-Update Citations** | Drop in a BibTeX file; formatted lists generated automatically. |
-| **Visual Editor** | Drag-and-drop blocks to build pages in minutes. |
-| **Global CDN** | Blazing fast load times (100/100 Lighthouse scores). |
-| **Privacy First** | You own your data. Host for free on GitHub Pages. |
+- **Students & grads** applying to internships / MSc / PhD / junior roles
+- **STEM professionals** (research, data, ML, bio, engineering) showcasing projects and writing
+- **Software engineers** building a portfolio that feels modern in 2026
 
 ---
 
-## Notebook → Posts and Slides
+## What you get (Free)
 
-- Publish your actual `.ipynb` as beautiful long-form posts — code, outputs, and narrative kept intact.
-- Slides in Markdown with Reveal.js: math, syntax highlight, diagrams, speaker notes.
-- Coming soon: **Notebook → Slides (beta)**. Request early access in Discord.
-
-Learn more: docs on [Notebooks](https://docs.hugoblox.com/reference/markdown/#-notebooks) and [Slides](https://docs.hugoblox.com/guides/slides/).
-
----
-
-## Why Go Pro (from $8/m)
-
-- Enhanced HugoBlox Studio visual editor — save 10–20 hours setting up and polishing
-- Premium CV & Resumé designs — make an unforgettable first impression
-- Pro blocks, remove attribution, and priority support
+- **Developer hero** with modern gradients + optional typewriter
+- **Filterable portfolio** (tags + smooth transitions)
+- **Tech stack** grid with icons
+- **Experience + education timeline**
+- **Blog section** (cards + featured images)
+- **Contact section** with social links + copy email
 
 ---
 
-## Free vs Pro
+## Get started (recommended)
 
-| Feature | Academic CV (Free) | Academic CV Pro & Resumé Pro |
-| --- | --- | --- |
-| Design | Professional & clean | Premium designs |
-| Layouts | Standard sections | Advanced timelines & layouts |
-| Courses/Lectures | Basic | Fully-Featured |
-| First Impression | Strong | Unforgettable |
-| Discord Support | Community | Priority |
+### Option 1 — Online deployer (fastest)
 
-<p align="center">
-  <a href="https://hugoblox.com/pro?utm_source=github&utm_medium=readme"><b>💎 Upgrade to Pro</b></a><br/>
-  <a href="https://hugoblox.com/templates/academic-cv-pro/start?utm_source=github&utm_medium=readme">✨ Deploy Academic CV Pro</a>
-  &nbsp;•&nbsp;
-  <a href="https://hugoblox.com/templates/resume-pro/start?utm_source=github&utm_medium=readme">📄 Deploy Resumé Pro</a>
-</p>
+Deploy this template in ~60 seconds:
 
----
+- [Deploy in browser →](https://hugoblox.com/templates/dev-portfolio/start?utm_source=github&utm_medium=readme)
 
-## Get Started
+### Option 2 — Lore Studio (visual editor in VS Code)
 
-### Option 1: No-Code (Fastest)
-Launch a fully hosted site in your browser. No software to install.
+- [Studio guide →](https://docs.hugoblox.com/guides/studio/?utm_source=github&utm_medium=readme)
+- [Studio AI automation plans (Free/Plus/Pro) →](https://hugoblox.com/pricing/?utm_source=github&utm_medium=readme)
 
-👉 [**Launch in Browser (Free)**](https://hugoblox.com/templates/academic-cv/start?utm_source=github&utm_medium=readme)
+### Option 3 — HugoBlox CLI (developer workflow)
 
-### Option 2: Studio (Visual Editor)
-1) Install [HugoBlox Studio](https://marketplace.visualstudio.com/items?itemName=hugoblox.hugoblox-studio) for VS Code  
-2) Open this project and edit visually
-
-### Option 3: CLI (Developers)
-1) Install [Hugo](https://docs.hugoblox.com/start/cli/)
-2) Create your site with the CLI:
+Install:
 
 ```bash
-npx hugoblox create site --template academic-cv
+npm install -g hugoblox@latest
 ```
 
----
+Create a site:
 
-## FAQ
+```bash
+hugoblox create site --template dev-portfolio
+```
 
-- Do I need to know Hugo? No — you can edit visually or write Markdown.
-- Can I host for free? Yes — GitHub Pages/Netlify are supported.
-- Can I export/migrate later? Yes — your site is just files.
-- Can I cancel Pro anytime? Yes.
-
----
-
-## Community & Support
-
-- 💬 [**Discord Community**](https://discord.gg/z8wNYzb)
-- 📚 [**Documentation**](https://docs.hugoblox.com/?utm_source=github&utm_medium=readme)
-- 🐦 [**Follow on X**](https://x.com/BuildLore)
-- ⭐ [**Star on GitHub**](https://github.com/HugoBlox/hugo-blox-builder)
+[CLI docs →](https://docs.hugoblox.com/start/cli/?utm_source=github&utm_medium=readme)
 
 ---
 
-MIT © 2016-Present [George Cushen](https://georgecushen.com)
+## Customize in 10 minutes
 
-<!--START_SECTION:news-->
-<!--END_SECTION:news-->
+- **Your profile**: `data/authors/me.yaml`
+- **Homepage sections**: `content/_index.md`
+- **Projects**: `content/projects/<project>/index.md`
+- **Blog posts**: `content/blog/<post>/index.md`
+- **Theme + identity**: `config/_default/params.yaml`
+
+---
+
+## Want the Pro version? 💎
+
+If you want a version that feels meaningfully more premium (and helps fund open source + research):
+
+- [Premium template →](https://hugoblox.com/templates/dev-portfolio-pro/start?utm_source=github&utm_medium=readme)
+- [HugoBlox Pro / Studio →](https://hugoblox.com/pricing?utm_source=github&utm_medium=readme)
+
+---
+
+## Community & support
+
+- **Docs**: [docs.hugoblox.com →](https://docs.hugoblox.com/?utm_source=github&utm_medium=readme)
+- **Discord**: [Join Discord →](https://discord.gg/z8wNYzb)
+- **Issues**: [Open an issue →](https://github.com/HugoBlox/kit/issues)
+
+---
+
+MIT © 2016–Present [George Cushen](https://neuralgeo.com/?utm_source=github&utm_medium=readme)

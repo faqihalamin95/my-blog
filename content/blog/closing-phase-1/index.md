@@ -8,8 +8,6 @@ tags:
   - Blog
   - Data Engineering
   - Career Journey
-cover:
-  image: "cover.jpg"
 image:
   filename: featured.jpg
   caption: 'Image credit: Photo by [**Philippe Surber**](https://unsplash.com/@surber) on [**Unsplash**](https://unsplash.com)'

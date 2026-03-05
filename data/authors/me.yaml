@@ -5,12 +5,11 @@ name:
   display: Karhomatul Faqih Al Amin
   given: Karhomatul Faqih Al
   family: Amin
-  alternate: ''  # Example: 王伟
-  pronunciation: ''  # Example: Wáng Wěi
-postnominals: '' # Example: PhD, MD
+postnominals: []
 status:
-  icon: ""  # Example: ☕️
+  icon: ""  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
 role: Data Engineer Learner
+email: karhomatulfakih@gmail.com
 bio: |
   Data Engineer learner with a strong interest
   in data pipelines, ETL processes, and scalable data systems. Currently
@@ -28,7 +27,6 @@ links:
   - icon: brands/linkedin
     url: https://www.linkedin.com/in/karhomatul-faqih-al-amin-2885ba321/
 
-
 interests:
   - Python Programming
   - SQL & Databases
@@ -41,51 +39,52 @@ education:
     start: 2025-09-01
 
 experience:
-  - role: ''
-    org: ''
-    start: ''
+  - role: Senior Software Engineer
+    org: Tech Corp
+    start: 2023-01-01
     summary: |
-      ''
-    button:
-      text: ''
-      url: ''
-      icon: ''
-  - role: ''
-    org: ''
-    start: ''
-    end: ''
+      Lead development of microservices architecture serving 1M+ users.
+      Improved API response time by 40% through optimization.
+      Mentored team of 5 junior developers.
+  - role: Full-Stack Developer
+    org: Startup Inc
+    start: 2021-06-01
+    end: 2022-12-31
     summary: |
-      ''
+      Built and deployed 3 production applications from scratch.
+      Implemented CI/CD pipeline reducing deployment time by 60%.
+      Led migration from monolith to microservices architecture.
+  - role: Junior Developer
+    org: Web Agency
+    start: 2020-01-01
+    end: 2021-05-31
+    summary: |
+      Developed client websites using React and modern web technologies.
+      Participated in code reviews and agile ceremonies.
 
-skills:
-  - name: Technical Skills
-    items:
-      - label: ''
-        level: 
-      - label: ''
-        level: 
-      - label: ''
-        level: 
-  - name: Research & Communication
-    items:
-      - label: ''
-        level: 
-      - label: ''
-        level: 
-      - label: ''
-        level: 
+# skills:
+#   - name: Development
+#     items:
+#       - label: TypeScript
+#         level: 5
+#       - label: React
+#         level: 5
+#       - label: Node.js
+#         level: 5
+#       - label: Python
+#         level: 4
+#   - name: DevOps
+#     items:
+#       - label: Docker
+#         level: 4
+#       - label: AWS
+#         level: 4
+#       - label: CI/CD
+#         level: 5
 
-languages:
-  - name: ''
-    level: 
-    label: ''
-  - name: ''
-    level: 
-    label: ''
+# languages:
+#   - name: English
+#     level: 5
+#     label: Native
 
-awards:
-  - title: ''
-    awarder: ''
-    date: ''
-    summary: ''
-    icon: ''
+awards: []

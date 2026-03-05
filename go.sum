@@ -1,6 +1,6 @@
-github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v0.0.0-20251215001347-c72b26de8d15 h1:kK7WGIwmMcQS1DiIkpyTwToBf3som+dL7EraGgpC88g=
-github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-netlify v0.0.0-20251215001347-c72b26de8d15/go.mod h1:C7jfxMLv1bEUqbM9XDSmEpfOpS8w06OgqNDEcbuRgL4=
-github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal v0.0.0-20251214235550-d15979197a2a h1:CLPCH2xu/TmZsir9sMAtg0sbBIjMhzp+LwVrrviub1k=
-github.com/HugoBlox/hugo-blox-builder/modules/blox-plugin-reveal v0.0.0-20251214235550-d15979197a2a/go.mod h1:rc3iv07XFylONQor5A4GdjTffe4asUSdnC1VgzmQ5+s=
-github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.0.0-20251214032829-73b5f7d5758a h1:2JpJHmboUMvlW8ZHLnc2Zb9PlULB0huwYq3/DfjEU6k=
-github.com/HugoBlox/hugo-blox-builder/modules/blox-tailwind v0.0.0-20251214032829-73b5f7d5758a/go.mod h1:blQEm4Y+xVVX9OTVDnO+p0MwHTy3hQdpU6pZK659DiI=
+github.com/HugoBlox/kit/modules/blox v0.0.0-20260106201334-85307a809791 h1:w2sHTtEWpTDubeXzBE1eFlE/vjfBpbAbUO42Xo9YewI=
+github.com/HugoBlox/kit/modules/blox v0.0.0-20260106201334-85307a809791/go.mod h1:0F2Ss2NeylmaBP7+qx0U6zFPeMZ9NoLbAQakKXDqygo=
+github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260102210655-66cba27dc652 h1:KdTgOy8hzPOUJcMyR6Tp2k3tyaJzoxz2e1zaddcG0uk=
+github.com/HugoBlox/kit/modules/integrations/netlify v0.0.0-20260102210655-66cba27dc652/go.mod h1:UuppRGml2K1EmlDkN+HemycohgZLjOy0QPGYOnoPnY4=
+github.com/HugoBlox/kit/modules/slides v1.2.5 h1:Jg+Q8dbc+PXbfk1X7ZeuK8kh2tOtr89Y5PnLNjiby30=
+github.com/HugoBlox/kit/modules/slides v1.2.5/go.mod h1:/XTQAtd2KCiwg/GVMAoSzKPf/DYPVbAAEysmBdWgYu4=
