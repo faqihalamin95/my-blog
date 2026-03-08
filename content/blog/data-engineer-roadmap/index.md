@@ -83,16 +83,6 @@ This roadmap isn’t final, it’s something I’ll refine every semester as I g
 
 ---
 
-## What’s Next
-
-Phase 1 and Phase 2 are **completed**, covering foundational skills and local ETL workflows—from basic Python and SQL to structured data modeling and reproducible pipelines.
-
-I am currently **in progress with Phase 3**, focusing on **Cloud Infrastructure & Serverless Pipelines**. This phase marks the transition from local environments to cloud-native systems, emphasizing infrastructure-as-code, containerized workloads, and event-driven data pipelines.
-
-At the end of Phase 3, I plan to document key learnings around cloud infrastructure design, deployment trade-offs, and lessons learned when moving ETL workloads into a serverless environment.
-
----
-
 ## Roadmap Update Log
 
 ### v2.3 - Phase 3 Completion & Cloud Analytics Update
