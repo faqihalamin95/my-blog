@@ -8,10 +8,10 @@ name:
 postnominals: []
 status:
   icon: ""  # Emoji shown on avatar badge: 💻 developer, 🎨 designer, 🚀 startup, 🔬 researcher, 🎓 student
-role: Data Engineer Learner
+role: Analytics Engineer Practitioner
 email: karhomatulfakih@gmail.com
 bio: |
-  Data Engineer learner with a strong interest
+  Analytics Engineer practitioner with a strong interest
   in data pipelines, ETL processes, and scalable data systems. Currently
   pursuing an undergraduate degree in Data Science, focuses on building
   practical projects using Python, SQL, and modern data engineering tools.
@@ -38,29 +38,29 @@ education:
     institution: Indonesia Open University
     start: 2025-09-01
 
-experience:
-  - role: Senior Software Engineer
-    org: Tech Corp
-    start: 2023-01-01
-    summary: |
-      Lead development of microservices architecture serving 1M+ users.
-      Improved API response time by 40% through optimization.
-      Mentored team of 5 junior developers.
-  - role: Full-Stack Developer
-    org: Startup Inc
-    start: 2021-06-01
-    end: 2022-12-31
-    summary: |
-      Built and deployed 3 production applications from scratch.
-      Implemented CI/CD pipeline reducing deployment time by 60%.
-      Led migration from monolith to microservices architecture.
-  - role: Junior Developer
-    org: Web Agency
-    start: 2020-01-01
-    end: 2021-05-31
-    summary: |
-      Developed client websites using React and modern web technologies.
-      Participated in code reviews and agile ceremonies.
+# experience:
+#   - role: Senior Software Engineer
+#     org: Tech Corp
+#     start: 2023-01-01
+#     summary: |
+#       Lead development of microservices architecture serving 1M+ users.
+#       Improved API response time by 40% through optimization.
+#       Mentored team of 5 junior developers.
+#   - role: Full-Stack Developer
+#     org: Startup Inc
+#     start: 2021-06-01
+#     end: 2022-12-31
+#     summary: |
+#       Built and deployed 3 production applications from scratch.
+#       Implemented CI/CD pipeline reducing deployment time by 60%.
+#       Led migration from monolith to microservices architecture.
+#   - role: Junior Developer
+#     org: Web Agency
+#     start: 2020-01-01
+#     end: 2021-05-31
+#     summary: |
+#       Developed client websites using React and modern web technologies.
+#       Participated in code reviews and agile ceremonies.
 
 # skills:
 #   - name: Development

@@ -92,26 +92,26 @@ sections:
     id: features
     content:
       title: Core Capabilities
-      text: My data engineering expertise
+      text: Practical analytics engineering skills demonstrated through hands-on projects.
       items:
-        - name: Data Modeling (dbt)
+        - name: Layered Data Modeling (dbt)
           icon: square-3-stack-3d
-          description: Designing staging → foundation → marts layers with star schema and SCD Type 2 using dbt.
-        - name: Metric Standardization
-          icon: chart-pie
-          description: Defining consistent KPIs and reusable metrics across analytical models.
-        - name: ELT Pipeline Orchestration
+          description: Designing staging → foundation → marts transformations using dbt with clear layer responsibilities and analytical data modeling principles.
+        - name: Dimensional Modeling
+          icon: star
+          description: Implementing Kimball-style star schema models, including Slowly Changing Dimension (SCD Type 2), to create reliable analytical datasets.
+        - name: Reproducible ELT Pipelines
+          icon: presentation-chart-line
+          description: Building deterministic batch pipelines that transform raw data into analytics-ready warehouse tables.
+        - name: Pipeline Orchestration
           icon: clock
-          description: Building batch pipelines using Airflow with dependency and retry handling.
-        - name: Problem Decomposition
-          icon: puzzle-piece
-          description: Implementing incremental models to reduce runtime and warehouse cost.
-        - name: Data Quality Testing
+          description: Scheduling and managing data pipeline workflows using Apache Airflow with retry handling and monitored DAG runs.
+        - name: Data Quality Validation
           icon: beaker
-          description: Applying dbt tests and validation checks to ensure data reliability.
-        - name: Warehouse Optimization
+          description: Applying structured validation checks and dbt tests to detect inconsistencies and protect analytical data contracts.
+        - name: Warehouse-Based Transformations
           icon: cube
-          description: Structuring transformations efficiently in Snowflake.
+          description: Structuring SQL transformations in modern analytical databases such as Snowflake and PostgreSQL.
     design:
       view: article-grid
       columns: 3
@@ -145,6 +145,8 @@ sections:
               icon: custom/snowflake
             - name: Airflow
               icon: devicon/apacheairflow
+            - name: Docker
+              icon: devicon/docker
             - name: PostgreSQL
               icon: devicon/postgresql
 
@@ -219,32 +221,17 @@ sections:
     content:
       items:
         - title: Current Focus
-          text: "Analytics Engineering"
+          text: "Phase 4: Cloud Infrastructure & Automation"
           feature_icon:   
           features:
-            - "**Advanced Modeling**: Implementing **dbt layering** (Staging to Marts) within **Snowflake** for robust data transformation."
-            - "**Metric Automation**: Orchestrating **automated pipelines** for business-critical SaaS metrics (MRR, Retention, LTV)."
-            - "**Reliable Delivery**: Leveraging **Cloudflare R2** and **Airflow** to ensure data quality and seamless orchestration."
+            - "**Infrastructure as Code**: Provisioning scalable cloud environments and networking using **Terraform**."
+            - "**Containerized Workloads**: Ensuring pipeline portability and production-ready environments with **Docker**."
+            - "**CI/CD & DevOps**: Automating deployment lifecycles via **GitHub Actions** for seamless delivery to **AWS/GCP**."
           # Upload image to `assets/media/` and reference the filename here
           image: current-phase.png
           button:
             text: See full roadmap
             url: https://datadonut.netlify.app/blog/data-engineer-roadmap/
-          # button:
-          #   text: See full roadmap
-          #   url: https://datadonut.netlify.app/blog/data-engineer-roadmap/
-        # - title: Next Phase Roadmap
-        #   text: "Phase 4: Cloud Infrastructure & Automation"
-        #   feature_icon:   
-        #   features:
-        #     - "**Infrastructure as Code**: Provisioning scalable cloud environments and networking using **Terraform**."
-        #     - "**Containerized Workloads**: Ensuring pipeline portability and production-ready environments with **Docker**."
-        #     - "**CI/CD & DevOps**: Automating deployment lifecycles via **GitHub Actions** for seamless delivery to **AWS/GCP**."
-        #   # Upload image to `assets/media/` and reference the filename here
-        #   image: next-phase.png
-        #   button:
-        #     text: See full roadmap
-        #     url: https://datadonut.netlify.app/blog/data-engineer-roadmap/
     design:
       # Section background color (CSS class)
       css_class: ""
@@ -302,10 +289,10 @@ sections:
         I'm currently looking for **Analytics Engineer** or **Data Engineer** roles.
         
         Let's connect and discuss how I can help your team.
-      # button:
-      #   text: 'Download Resume'
-      #   url: uploads/resume.pdf
-      #   new_tab: true
+      button:
+        text: 'Download Resume'
+        url: uploads/resume.pdf
+        new_tab: true
     design:
       card:
         # Light mode: soft pastel theme gradient | Dark mode: rich deep gradient

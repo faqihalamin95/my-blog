@@ -36,40 +36,37 @@ As a Data Science student, my goal is to *build solid* ***foundations first***, 
 
 ### Foundation (Phase 1-2) ✅
 
-| Phase | Phase 1 - Foundation Basics (2 months) | Phase 2 - Local ETL & Modeling (2 months) |
+| Phase | Phase 1 - Foundation Basics | Phase 2 - Local ETL & Modeling |
 | --- | --- | --- |
 | **Status** | ✅ Completed | ✅ Completed |
 | **Main Focus** | Python & SQL Fundamentals | Databases & Local Data Handling |
-| **Learning Resources** | Cisco - (Python Essentials 1, Linux Unhatched), Codecademy - Learn SQL, Codedex - Learn Git & Github | Databricks Academy, pandas docs, PostgreSQL tutorial, The Data Warehouse Toolkit (3rd Edition) by Ralph Kimball |
-| **Key Skill & Topics** | Basic statistics, Python basics, SQL fundamentals, Intro to Git & Linux | CSV/JSON ingestion, Pandas ETL, Bash automation, Data modeling, Normalization, Basic ETL patterns, Makefile-based orchestration |
-| **Tools / Platform** | Python, Jupyter Notebook, GitHub, Linux Shell, PostgreSQL/MySQL | PostgreSQL/MySQL, GitHub, Pandas & NumPy, Bash CLI |
+| **Key Skill & Topics** | Basic statistics, Python basics, SQL fundamentals, Intro to Git & Linux | CSV ingestion, Pandas ETL, Bash automation, Data modeling (star schema), Normalization, Basic ETL patterns, Makefile-based orchestration |
+| **Tools / Platform** | Python, Git/GitHub, Linux Shell, SQLite | PostgreSQL, Makefile, Pandas, Bash CLI |
 | **Project / Portfolio Output** | **Project 1**: [**Movie Data ETL Pipeline**](https://datadonut.netlify.app/projects/movie-data-etl-pipeline/) | **Project 2:** [**E-commerce Data Pipeline**](https://datadonut.netlify.app/projects/ecommerce-data-pipeline/) |
 
 ---
 
 ### Cloud (Phase 3-4) ⏳
 
-| Phase | Phase 3 - Cloud Infrastructure & Serverless Pipelines (4 months) | Phase 4 - Big Data & Advanced Orchestration (5 months) |
+| Phase | Phase 3 - Analytic Engineering | Phase 4 - Cloud Infra Basics |
 | --- | --- | --- |
-| **Status** | ⏳ In Progress | 🗓️ Planned |
-| **Main Focus** | Cloud infra, Containerized workloads, Event-driven pipelines | Big data, Cloud ETL & Basic streaming |
-| **Learning Resources** |  |  |
-| **Key Skill & Topics** | IAM (least privilege), S3 (raw/staging zones), VPC & networking basics, Dockerized Python apps, Terraform IaC, Lambda execution model, SQS-based decoupling, Idempotent ETL, CI-ready infra | Spark DataFrames, Distributed processing, Glue ETL workflows, Redshift integration, dbt SQL modeling, Airflow DAG orchestration, Data quality frameworks |
-| **Tools / Platform** | AWS S3, IAM, VPC, Docker, Python, Terraform, AWS Lambda, SQS, GitHub Actions (basic) | Apache Spark (PySpark), AWS Glue, Redshift, Airflow/Step Functions, Kafka/Kinesis, dbt |
-| **Project / Portfolio Output** | **Project 3:** End-to-end cloud data pipeline (Docker + Lambda) deployed fully via Terraform | **Project 4:** Cloud ETL, raw → Glue → Redshift/S3 + basic streaming ingestion + data quality checks |
+| **Status** | ✅ Completed | ⏳ In Progress |
+| **Main Focus** | Cloud object storage, Warehouse setup, dbt layering (staging → intermediate → marts), Basic orchestration | Docker, Terraform & CI/CD Fundamentals |
+| **Key Skill & Topics** | dbt (layering), Star Schema, MRR, Cohort Retention, Customer LTV, Data Quality, Chaos Engineering | Containerized pipeline, infrastructure-as-code, basic networking, CI/CD, IAM basics |
+| **Tools / Platform** | Cloudflare R2, Snowflake, dbt, Docker, Airflow | Docker, Terraform, GitHub Actions, AWS/GCP |
+| **Project / Portfolio Output** | **Project 3:** End-to-end cloud data pipeline (Docker + Lambda) deployed fully via Terraform | **Project 4:** Dockerized Pipeline + Terraform Deploy + GitHub Actions CI |
 
 ---
 
-### Advanced (Phase 5-6) 🗓️
+### Advanced (Phase 5-6) 🔒
 
-| Phase | Phase 5 - DevOps & Production (4 months) | Phase 6 - Lakehouse & Capstone (8 months) |
+| Phase | Phase 5 - Data Engineering Platform | Phase 6 - Production & Capstone |
 | --- | --- | --- |
-| **Status** | 🗓️ Planned | 🗓️ Planned |
-| **Main Focus** | CI/CD, Observability & Container orchestration | Lakehouse, Advanced streaming & ML integration |
-| **Learning Resources** |  |  |
-| **Key Skill & Topics** | Infrastructure automation, Secret management, GitHub Actions pipelines, Test workflows, Monitoring & logging, Container orchestration (K8s) | Delta Lake/Hudi, ACID ingestion, Spark optimization, Incremental loads, Real-time streaming (Flink/Spark Streaming), Data governance, Feature stores, ML pipeline integration |
-| **Tools / Platform** | Terraform, GitHub Actions, CloudWatch, Docker, Kubernetes | Databricks, Delta Lake, Flink/Spark Streaming, Great Expectations, MLflow, Terraform, Airflow, Power BI/Metabase |
-| **Project / Portfolio Output** | **Project 5:** Production-grade ETL with CI/CD, tests, monitoring, containerized deployment | **Capstone:** Full data platform — ingestion → processing → catalog → quality → dashboard + ML pipeline |
+| **Status** | 🔒  Post-Employment | 🔒 Post-Employment |
+| **Main Focus** |End-to-End Pipeline, Streaming & Advanced Orchestration | Lakehouse, ML Integration & Full Platform |
+| **Key Skill & Topics** | Advanced Airflow, Streaming (Kafka/Kinesis), Data lineage, Data governance, Observability,Testing (Great Expectations) | Delta Lake / Hudi, ACID transactions, Spark optimization, Feature store, ML pipeline, Data catalog |
+| **Tools / Platform** | Airflow/Prefect, Kafka, Spark, Great Expectations, CloudWatch/Grafana | Databricks, Delta Lake, MLflow, Flink, Metabase/Power BI |
+| **Project / Portfolio Output** | **Project 5:** Production-grade End-to-End Pipeline, ingestion → transform → quality → monitoring | **Capstone:** Full data platform, ingestion → processing → catalog → quality → dashboard + ML pipeline |
 
 ---
 
@@ -96,36 +93,81 @@ At the end of Phase 3, I plan to document key learnings around cloud infrastruct
 
 ---
 
-## **Roadmap Update Log**
+## Roadmap Update Log
 
-**v2.2 Phase Progress & Vertical Layout Update (February 2026)**
+### v2.3 - Phase 3 Completion & Cloud Analytics Update
 
-* Roadmap structure adjusted: Phase 3 expanded to include production-ready orchestration foundations (total phases reduced to 6).
-* Updated roadmap status: Phase 2 marked as Completed, Phase 3 marked as In Progress.
-* Refactored roadmap tables into a vertical layout for better readability in blog and document formats.
-* Updated *What’s Next* section to reflect current execution focus on cloud infrastructure.
+**March 2026**
 
-**v2.1 Phase 2 Learning Resources Update (December 2025)**
+**Highlights**
 
-* Changed and refined Phase 1 status and documentation.
-* Added Phase 2 learning resources.
-* Updated *What’s Next* section.  
+* Phase 3 marked as **Completed** after building a full **SaaS analytics engineering pipeline**.
+* Introduced **Project 3: SaaS Analytics Pipeline** as the main portfolio artifact for Phase 3.
+* Updated the roadmap to reflect a **local-first → cloud analytics transition strategy**.
 
-**v2.0 Major Revision (December 2025)**
+**Changes**
 
-* Roadmap structure changed: semester-based → phase-based (7 phases).
-* Cloud section updated: combined Cloud Foundations & Serverless Pipelines.
-* Big Data phase revised: PySpark, dbt, and Airflow integrated into a single project.
-* Added Workload Management & Burnout Prevention guidance.
-* Capstone scope clarified: full data platform + ML integration.
-    
-**v1.1 Tooling Update (November 2025)**
+* Cloud section restructured: Phase 3 now emphasizes **analytics engineering workflows in the cloud**.
+* Clarified learning focus around **object storage, warehouse modeling, dbt transformations, and orchestration**.
+* Minor structural adjustments to prepare the roadmap for Phase 4.
 
-* Introduced Terraform basics for early IaC exposure. 
-* Added Docker containerization in Phase 3.
-    
+**Notes**
 
-**v1.0 Initial Structure (October 2025)**
+* This update represents the transition point from **local data pipeline experimentation** to **cloud-oriented analytics systems**.
 
-* First version of the roadmap published.
-* Added foundation milestones and basic Python/SQL projects.
+---
+
+### v2.2 - Phase Progress & Vertical Layout Update
+
+**February 2026**
+
+**Highlights**
+
+* Roadmap layout changed from horizontal to **vertical phase structure** for better readability.
+* Phase progress indicators added to track learning milestones.
+
+**Changes**
+
+* Improved visual clarity and roadmap navigation.
+* Minor wording improvements across phase descriptions.
+
+---
+
+### v2.1 - Phase 2 Learning Resources Update
+
+**December 2025**
+
+**Changes**
+
+* Updated learning materials and references for Phase 2.
+* Minor refinements to study priorities within the data engineering fundamentals phase.
+
+---
+
+### v2.0 - Major Revision
+
+**December 2025**
+
+**Highlights**
+
+* Significant roadmap restructuring based on learning progress and industry research.
+* Clearer separation between **foundational data engineering**, **analytics engineering**, and **infrastructure topics**.
+
+---
+
+### v1.1 - Tooling Update
+
+**November 2025**
+
+**Changes**
+
+* Added several tools and technologies to the roadmap stack.
+* Minor adjustments to the learning order.
+
+---
+
+### v1.0 - Initial Structure
+
+**October 2025**
+
+Initial version of the roadmap outlining the long-term learning path toward a **Data / Analytics Engineering career**.
